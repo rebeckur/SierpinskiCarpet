@@ -1,7 +1,7 @@
 header{
 	text-align: center;
 	font-family: 'Lato', sans-serif;
-	font-color: rgb(255);
+	color: rgb(255, 255, 255);
 	font-size: 42;
 }
 #content {
@@ -11,6 +11,7 @@ header{
 }
 body{
 	background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 footer{
 	text-align: center;
