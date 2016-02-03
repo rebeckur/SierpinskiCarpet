@@ -1,18 +1,18 @@
 public void setup()
 {
-	size(950, 950);
+	size(900, 900);
 }
 public void draw()
 {
 	background(0);
-	sierpinski(10, 10, 600);
+	sierpinski(10, 10, 750);
 }
 public void sierpinski(int x, int y, int len)
 {
 	if (len <= 9)
 	{
 		fill(131, 126, 177);
-		noStroke();
+		stroke(131, 126, 177);
 		rect(x, y, len, len);
 	}
 	else
