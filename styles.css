@@ -1,12 +1,13 @@
 header{
 	text-align: center;
 	font-family: 'Lato', sans-serif;
+	font-color: rgb(255);
 	font-size: 42;
 }
 #content {
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 body{
 	background-color: rgb(0, 0, 0);
