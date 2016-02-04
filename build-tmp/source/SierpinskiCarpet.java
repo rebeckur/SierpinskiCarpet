@@ -14,21 +14,28 @@ import java.io.IOException;
 
 public class SierpinskiCarpet extends PApplet {
 
+int col;
+
 public void setup()
 {
-	size(900, 900);
+	size(790, 790);
+	col = color(131, 126, 177);
 }
 public void draw()
 {
 	background(0);
-	sierpinski(10, 10, 600);
+	sierpinski(20, 20, 750);
+}
+public void mousePressed()
+{
+	col*=15;
 }
 public void sierpinski(int x, int y, int len)
 {
 	if (len <= 9)
 	{
-		fill(131, 126, 177);
-		stroke(131, 126, 177);
+		fill(col);
+		stroke(col);
 		rect(x, y, len, len);
 	}
 	else
